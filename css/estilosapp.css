@@ -3,10 +3,11 @@
     margin: 0%;
     text-decoration: none;
     box-sizing: border-box;
+    font-family:"Helvetica";
 }
 
 .logo{
-    width: 150px;
+    width: 90px;
 }
 
 footer{
@@ -27,18 +28,14 @@ section{
     align-items: center;
 } */
 .modal-content {
-    background-color: rgba(245, 244, 244, 0.957);
-    font-family:'Montserrat', sans-serif;
+    background-image: linear-gradient(to right,  white,  rgb(108, 106, 106));
     padding: 1%;
-    border-radius: 10px;
+    border-radius: 5px;
+    border-color: black;
     width: 70%;
  }
 
- .modal-header {
-    background-color: rgb(214, 227, 230) ;
-    border-radius: 10px;
 
- }
  
  .modal-footer{
     margin-right: 50px;
@@ -73,6 +70,7 @@ section{
     flex-wrap: wrap; */
     justify-content: space-around;
 
+<<<<<<< HEAD
 }
 .nosotros-card{
     width: 300px;
@@ -82,6 +80,8 @@ section{
     box-shadow: 2px;
 } 
  
+=======
+>>>>>>> 1b3e3399ad0f97d75d5ed788b26ef4e70ddd432b
 
 .wrapper {
     width:100px;
@@ -96,10 +96,42 @@ section{
      top: 50px;
 }
 
+<<<<<<< HEAD
 .btn{
     background-color:rgb(0, 0, 0, 0.6);
     color: rgb(242, 236, 236);
     
     
 }
+=======
+.offcanvas {
+    background-image: linear-gradient(to right,  white,  rgb(108, 106, 106));
+    padding: 1%;
+    border-radius: 5px;
+    border-color: black;
+       
+}
+
+.carousel {
+    /* any dimensions are fine, it can be responsive with max-width */
+    width: 100%;
+    height: 630px;
+    
+  }
+  
+  .carousel-inner {
+    /* make sure your .items will get correct height */
+    height: 100%;
+   
+    
+  }
+  
+  .item {
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    
+  }
+  
+>>>>>>> 1b3e3399ad0f97d75d5ed788b26ef4e70ddd432b
 
